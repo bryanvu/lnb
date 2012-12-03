@@ -3,62 +3,10 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 
-body {
-	background-image:url('wallpaper.jpg');
-	margin-top: 100px;
-	font-family: timesnewroman;
-}
-
-div#content_container {
-	border-style: double;
-	width: 800px;
-	background-color: white;
-	margin-left: auto;
-	margin-right: auto;	
-	margin-bottom: 150px;
-	border-color: #6B5D52;
-	border-width: 7px;
-}
-
-IMG#headline_image {
-    display: block;
-	margin-left: auto;
-	margin-right: auto;
-}
-
 IMG#main_photo {
     display: block;
-    margin-top: 25px;
-	margin-bottom: 75px;    
 	margin-left: auto;
 	margin-right: auto;
 }
 
-div#headline_container {
-	width: 800px;
-	padding-top: 20px;
-	padding-bottom: 30px;
-	background-color: white;
-	margin-left: auto;
-	margin-right: auto;
-}
 
-div#photo_container {
-	width: 800px;
-	background-color: white;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-table#menu {
-	width: 550px;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-table#menu th {
-	font-weight: normal;
-	font-variant: small-caps;
-	color: #6B5D52;
-	font-size: 13pt;
-}

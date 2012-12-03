@@ -1,14 +1,48 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Lnb</title>
+  <title>Lilly and Bryan's Wedding</title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
 <body>
 
-<%= yield %>
+<div id="outer_container">
 
+	<%= image_tag("bryanandlilly.jpg", :id => "headline_image") %>
+
+	<table id="menu">
+		<tr>
+			<th>
+				<%= link_to "Home", home_path, :class => "top_nav" %>
+			</th>
+			<th>
+				<%= link_to "Our Story", our_story_path, :class => "top_nav" %>
+			</th>
+			<th>
+				<%= link_to "Bridal Party", bridal_party_path, :class => "top_nav" %>
+			</th>
+			<th>
+				<%= link_to "Ceremony", ceremony_path, :class => "top_nav" %>
+			</th>
+			<th>
+				<%= link_to "Reception", reception_path, :class => "top_nav" %>
+			</th>
+			<th>
+				<%= link_to "Hotel", hotel_path, :class => "top_nav" %>
+			</th>
+			<th>
+				<%= link_to "Registry", registry_path, :class => "top_nav" %>
+			</th>
+		</tr>
+	</table>
+
+	<div id="content_container">
+
+	<%= yield %>
+
+	</div>
+</div>
 </body>
 </html>
