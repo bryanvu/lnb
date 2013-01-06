@@ -34,11 +34,25 @@ div#outer_container {
 a.top_nav {
 	color: #6B5D52;
 	text-decoration: none;	
+	font-weight: normal;
+}
+
+a {
+	font-weight: bold;
+	text-decoration: none;
 }
 
 div#content_container {
 	margin-top: 25px;
 	margin-bottom: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+div#interior_content {
+	margin-left: auto;
+	margin-right: auto;
+	width: 630px;
 }
 
 table#menu {

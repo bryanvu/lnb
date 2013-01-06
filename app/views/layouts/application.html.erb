@@ -15,25 +15,25 @@
 	<table id="menu">
 		<tr>
 			<th>
-				<%= link_to "Home", home_path, :class => "top_nav" %>
+				<%= link_to "Welcome", home_path, :class => "top_nav" %>
 			</th>
 			<th>
-				<%= link_to "Our Story", our_story_path, :class => "top_nav" %>
+				&nbsp;&nbsp;&nbsp;<%= link_to "Our Story", our_story_path, :class => "top_nav" %>
 			</th>
 			<th>
 				<%= link_to "Bridal Party", bridal_party_path, :class => "top_nav" %>
 			</th>
 			<th>
-				<%= link_to "Ceremony", ceremony_path, :class => "top_nav" %>
+				<%= link_to "Venue", venue_path, :class => "top_nav" %>
 			</th>
 			<th>
-				<%= link_to "Reception", reception_path, :class => "top_nav" %>
+				<%= link_to "Ceremony & Reception", ceremony_path, :class => "top_nav" %>
 			</th>
 			<th>
 				<%= link_to "Hotel", hotel_path, :class => "top_nav" %>
 			</th>
 			<th>
-				<%= link_to "Registry", registry_path, :class => "top_nav" %>
+				&nbsp;&nbsp;<%= link_to "Registry", registry_path, :class => "top_nav" %>
 			</th>
 		</tr>
 	</table>
@@ -43,9 +43,6 @@
 	<%= yield %>
 
 	</div>
-	<br>
-	<br>
-	<br>
 	<br>
 	<br>
 	<br>
