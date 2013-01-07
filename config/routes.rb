@@ -1,7 +1,7 @@
 Lnb::Application.routes.draw do
   match 'welcome' => 'wedding#welcome'
   match 'our_story' => 'wedding#our_story'
-  match 'bridal_party' => 'wedding#bridal_party'
+  match 'wedding_party' => 'wedding#wedding_party'
   match 'events' => 'wedding#events'
   match 'venue' => 'wedding#venue'
   match 'hotel' => 'wedding#hotel'

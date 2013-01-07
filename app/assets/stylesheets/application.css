@@ -85,8 +85,16 @@ table#menu th {
 	font-size: 13pt;
 }
 
+table#wedding_party_table {
+	width: 630px;
+}
+
 h1 {
 	font-variant: small-caps;
+}
+
+span.wedding_party_header {
+	font-weight: bold;
 }
 
 IMG#headline_image {
