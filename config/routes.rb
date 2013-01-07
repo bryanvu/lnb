@@ -1,8 +1,8 @@
 Lnb::Application.routes.draw do
-  match 'home' => 'wedding#show'
+  match 'welcome' => 'wedding#welcome'
   match 'our_story' => 'wedding#our_story'
   match 'bridal_party' => 'wedding#bridal_party'
-  match 'ceremony' => 'wedding#ceremony'
+  match 'events' => 'wedding#events'
   match 'venue' => 'wedding#venue'
   match 'hotel' => 'wedding#hotel'
   match 'registry' => 'wedding#registry'
@@ -57,7 +57,7 @@ Lnb::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-  root :to => 'wedding#show'
+  root :to => 'wedding#welcome'
 
   # See how all your routes lay out with "rake routes"
 
