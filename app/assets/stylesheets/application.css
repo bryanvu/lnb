@@ -43,11 +43,28 @@ a {
 	color: #6B5D52;
 }
 
+p#welcome_paragraph:first-letter {
+	font-size: 3em;
+	font-family: "Edwardian Script ITC", "Brush Script MT", cursive;
+}
+p#welcome_paragraph:first-line { 
+	line-height: 100%; 
+}
+
+p#welcome_paragraph {
+	margin-left: 30px;
+	text-indent: -30px;
+}
+
 div#content_container {
 	margin-top: 25px;
 	margin-bottom: 50px;
 	margin-left: 50px;
-	margin-right: 50px;
+	margin-right: 20px;
+}
+
+div#welcome_body_text {
+	margin-left: 30px;
 }
 
 div#interior_content {
