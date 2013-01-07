@@ -89,6 +89,11 @@ table#wedding_party_table {
 	width: 630px;
 }
 
+td.wedding_party_data {
+	width: 315px;
+	text-align: top;
+}
+
 h1 {
 	font-variant: small-caps;
 }
