@@ -45,7 +45,7 @@ a {
 
 p#welcome_paragraph:first-letter {
 	font-size: 4em;
-	font-family: "Edwardian Script ITC", "Brush Script MT", cursive;
+	font-family: "Edwardian Script ITC", cursive;
 	font-weight: normal;
 }
 
@@ -60,7 +60,7 @@ p#welcome_paragraph {
 
 p#names {
 	font-size: 2em;
-	font-family: "Edwardian Script ITC", "Brush Script MT", cursive;
+	font-family: "Edwardian Script ITC", cursive;
 	font-weight: normal;
 	margin-left: -10px;
 	line-height: 0%;
@@ -69,7 +69,7 @@ p#names {
 
 h1:first-letter {
 	font-size: 2em;
-	font-family: "Edwardian Script ITC", "Brush Script MT", cursive;
+	font-family: "Edwardian Script ITC", cursive;
 	font-weight: normal;
 }
 
@@ -84,7 +84,7 @@ h1 {
 
 h3:first-letter {
 	font-size: 3em;
-	font-family: "Edwardian Script ITC", "Brush Script MT", cursive;
+	font-family: "Edwardian Script ITC", cursive;
 	font-weight: normal;
 }
 
