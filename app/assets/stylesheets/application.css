@@ -56,6 +56,20 @@ p#welcome_paragraph {
 	text-indent: -30px;
 }
 
+h3:first-letter {
+	font-size: 3em;
+	font-family: "Edwardian Script ITC", "Brush Script MT", cursive;
+	font-weight: normal;
+}
+
+h3:first-line { 
+	line-height: 100%; 
+}
+
+h3 {
+	margin-left: -15px;
+}
+
 div#content_container {
 	margin-top: 25px;
 	margin-bottom: 50px;
