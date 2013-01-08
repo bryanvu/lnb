@@ -64,6 +64,7 @@ p#names {
 	font-weight: normal;
 	margin-left: -10px;
 	line-height: 0%;
+	font-style: italic;
 }
 
 h1:first-letter {
@@ -133,7 +134,7 @@ table#menu {
 }
 
 table#menu th {
-	font-weight: normal;
+	font-weight: bold;
 	font-variant: small-caps;
 	font-size: 13pt;
 }
