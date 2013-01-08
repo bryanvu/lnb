@@ -58,18 +58,12 @@ p#welcome_paragraph {
 	text-indent: -30px;
 }
 
-p#sincerely:first-letter {
-	font-size: 2.5em;
+p#names {
+	font-size: 2em;
 	font-family: "Edwardian Script ITC", "Brush Script MT", cursive;
 	font-weight: normal;
-}
-
-p#sincerely:first-line { 
-	line-height: 100%; 
-}
-
-p#sincerely {
 	margin-left: -10px;
+	line-height: 0%;
 }
 
 h1:first-letter {
