@@ -44,9 +44,9 @@ a {
 }
 
 p#welcome_paragraph:first-letter {
-	font-size: 3em;
+	font-size: 4em;
 	font-family: "Edwardian Script ITC", "Brush Script MT", cursive;
-	font-weight: bold;
+	font-weight: normal;
 }
 
 p#welcome_paragraph:first-line { 
