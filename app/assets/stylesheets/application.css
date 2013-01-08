@@ -58,7 +58,7 @@ p#welcome_paragraph {
 	text-indent: -30px;
 }
 
-p#names {
+p.names {
 	font-size: 2em;
 	font-family: 'Edwardian Script ITC', 'Miss Fajardose', cursive;
 	margin-left: -10px;
