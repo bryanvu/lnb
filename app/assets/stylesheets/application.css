@@ -131,12 +131,13 @@ table#menu {
 	width: 650px;
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: 10px;
 }
 
 table#menu th {
-	font-weight: bold;
 	font-variant: small-caps;
 	font-size: 13pt;
+	font-weight: bold;
 }
 
 table#wedding_party_table {
