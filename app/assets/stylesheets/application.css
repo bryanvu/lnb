@@ -44,8 +44,8 @@ a {
 }
 
 p#welcome_paragraph:first-letter {
-	font-size: 4em;
-	font-family: 'Great Vibes', cursive;
+	font-size: 3em;
+	font-family:'Great Vibes', cursive;
 	font-weight: normal;
 }
 
