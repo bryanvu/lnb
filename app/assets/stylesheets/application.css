@@ -44,9 +44,10 @@ a {
 }
 
 p#welcome_paragraph:first-letter {
-	font-size: 3em;
-	font-family: "Edwardian Script ITC", cursive;
+	font-size: 3.5em;
+	font-family: "Pinyon Script", cursive;
 	font-weight: normal;
+	letter-spacing: -5px;
 }
 
 p#welcome_paragraph:first-line { 
@@ -54,21 +55,22 @@ p#welcome_paragraph:first-line {
 }
 
 p#welcome_paragraph {
-	margin-left: 30px;
-	text-indent: -30px;
+	margin-left: 40px;
+	text-indent: 0px;
 }
 
 p.names {
-	font-size: 2em;
-	font-family: "Edwardian Script ITC", cursive;
-	margin-left: -10px;
+	font-size: 1.5em;
+	font-family: "Pinyon Script", cursive;
+	margin-left: 0px;
 	line-height: 0;
 }
 
 h1:first-letter {
 	font-size: 2em;
-	font-family: "Edwardian Script ITC", cursive;
+	font-family: "Pinyon Script", cursive;
 	font-weight: normal;
+	letter-spacing: -6px;
 }
 
 h1:first-line { 
@@ -76,14 +78,16 @@ h1:first-line {
 }
 
 h1 {
-	margin-left: -15px;
+	margin-left: -10px;
+	font-weight: normal;
 }
 
 
 h3.fancy:first-letter {
-	font-size: 2.5em;
-	font-family: "Edwardian Script ITC", cursive;
+	font-size: 3em;
+	font-family: "Pinyon Script", cursive;
 	font-weight: normal;
+	letter-spacing: -3px;
 }
 
 h3.fancy:first-line { 
@@ -92,6 +96,7 @@ h3.fancy:first-line {
 
 h3.fancy {
 	margin-left: -15px;
+	font-weight: normal;
 }
 
 div#content_container {
@@ -102,7 +107,7 @@ div#content_container {
 }
 
 div#welcome_body_text {
-	margin-left: 30px;
+	margin-left: 40px;
 }
 
 div#interior_content {
