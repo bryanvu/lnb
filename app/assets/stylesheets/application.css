@@ -45,7 +45,7 @@ a {
 
 p#welcome_paragraph:first-letter {
 	font-size: 3em;
-	font-family:'Great Vibes', cursive;
+	font-family: "Edwardian Script ITC", cursive;
 	font-weight: normal;
 }
 
@@ -60,14 +60,14 @@ p#welcome_paragraph {
 
 p.names {
 	font-size: 2em;
-	font-family: 'Great Vibes', cursive;
+	font-family: "Edwardian Script ITC", cursive;
 	margin-left: -10px;
 	line-height: 0;
 }
 
 h1:first-letter {
 	font-size: 2em;
-	font-family: 'Great Vibes', cursive;
+	font-family: "Edwardian Script ITC", cursive;
 	font-weight: normal;
 }
 
@@ -82,7 +82,7 @@ h1 {
 
 h3.fancy:first-letter {
 	font-size: 2.5em;
-	font-family: 'Great Vibes', cursive;
+	font-family: "Edwardian Script ITC", cursive;
 	font-weight: normal;
 }
 
