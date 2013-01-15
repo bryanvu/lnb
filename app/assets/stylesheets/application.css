@@ -45,6 +45,10 @@ a {
 	color: #6B5D52;
 }
 
+a.wed_pics {
+	font-weight: bold;
+}
+
 p#welcome_paragraph:first-letter {
 	font-size: 3.5em;
 	font-family: "Pinyon Script", cursive;

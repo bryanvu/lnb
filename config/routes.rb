@@ -6,6 +6,7 @@ Lnb::Application.routes.draw do
   match 'venue' => 'wedding#venue'
   match 'hotel' => 'wedding#hotel'
   match 'registry' => 'wedding#registry'
+  match 'wedpics' => 'wedding#wedpics'
 
 
   # The priority is based upon order of creation:
