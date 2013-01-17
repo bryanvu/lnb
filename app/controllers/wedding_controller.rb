@@ -20,6 +20,9 @@ class WeddingController < ApplicationController
   def registry
   end
 
+  def rsvp
+  end
+
   def wedpics
   end
 end
