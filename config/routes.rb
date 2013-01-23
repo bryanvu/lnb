@@ -6,6 +6,7 @@ Lnb::Application.routes.draw do
   match 'venue' => 'wedding#venue'
   match 'hotel' => 'wedding#hotel'
   match 'rsvp' => 'wedding#rsvp'
+  match 'rehearsal_rsvp' => 'wedding#rehearsal_rsvp'
   match 'registry' => 'wedding#registry'
   match 'wedpics' => 'wedding#wedpics'
   match 'rsvp_response' => 'wedding#rsvp_response'

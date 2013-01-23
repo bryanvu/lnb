@@ -1,7 +1,7 @@
 <div id="interior_content">
 
 
-<body class="ss-base-body" dir="ltr" itemscope itemtype="http://schema.org/CreativeWork/FormObject"><meta itemprop="name" content="RSVP">
+<meta itemprop="name" content="RSVP">
 <meta itemprop="embedUrl" content="https://docs.google.com/spreadsheet/embeddedform?formkey=dHBmVFpYUXlRcjRGMXNadXE4Z3kzRHc6MQ">
 
 
@@ -18,6 +18,7 @@
 <iframe name="hidden_iframe" id="hidden_iframe"
 style="display:none;" onload="if(submitted)
 {window.location='/rsvp_response';}"></iframe>
+
 <form action="https://docs.google.com/spreadsheet/formResponse?formkey=dHBmVFpYUXlRcjRGMXNadXE4Z3kzRHc6MQ&amp;ifq" method="post"
 target="hidden_iframe" onsubmit="submitted=true;">
 
@@ -29,7 +30,7 @@ target="hidden_iframe" onsubmit="submitted=true;">
 <input type="text" name="entry.0.single" value="" class="ss-q-short" id="entry_0"></div></div></div>
 <br> <div class="errorbox-good">
 <div class="ss-item  ss-text"><div class="ss-form-entry"><label class="ss-q-title" for="entry_8">Email Address
-</label>
+<span class="ss-required-asterisk">*</span></label>
 <label class="ss-q-help" for="entry_8"></label>
 <input type="text" name="entry.8.single" value="" class="ss-q-short" id="entry_8"></div></div></div>
 <br> <div class="errorbox-good">
@@ -57,6 +58,15 @@ Westin St. Francis</label></li>
 <li class="ss-choice-item"><input type="radio" name="entry.4.group" value="__option__" class="ss-q-radio" id="other_option:4">
 <label for="other_option:4">Other:</label>
 <input type="text" name="entry.4.group.other_option_" value="" class="ss-q-other"></li></ul></div></div></div>
+<br> <div class="errorbox-good">
+<div class="ss-item  ss-radio"><div class="ss-form-entry"><label class="ss-q-title" for="entry_9">Which meal do you prefer?
+</label>
+<label class="ss-q-help" for="entry_9"></label>
+<ul class="ss-choices"><li class="ss-choice-item"><label class="ss-choice-label"><input type="radio" name="entry.9.group" value="Beef" class="ss-q-radio" id="group_9_1">
+Beef</label></li> <li class="ss-choice-item"><label class="ss-choice-label"><input type="radio" name="entry.9.group" value="Fish" class="ss-q-radio" id="group_9_2">
+Fish</label></li> <li class="ss-choice-item"><label class="ss-choice-label"><input type="radio" name="entry.9.group" value="Vegetarian" class="ss-q-radio" id="group_9_3">
+Vegetarian</label></li>
+</ul></div></div></div>
 <br> <div class="errorbox-good">
 <div class="ss-item  ss-text"><div class="ss-form-entry"><label class="ss-q-title" for="entry_5">Do you have any dietary restrictions we should know about?
 </label>
@@ -99,7 +109,7 @@ return;
 }
 })();
       </script></div>
-</div></div></body></html>
+</div></div>
 
 
 </div>

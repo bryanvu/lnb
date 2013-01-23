@@ -23,6 +23,9 @@ class WeddingController < ApplicationController
   def rsvp
   end
 
+  def rehearsal_rsvp
+  end
+
   def wedpics
   end
 end
