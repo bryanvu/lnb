@@ -56,12 +56,12 @@ span.wedding_party_header {
 img#main_photo {
   margin-left: auto;
   margin-right: auto;
+  margin-left: -10px;
+  margin-bottom: 40px;
   width: 630px;
-  display: block;
-  border: 10px solid #6b5d52;
-  padding: 0px;
-  -moz-box-shadow: 10px 10px 5px #888888;
-  -webkit-box-shadow: 10px 10px 5px #888888;
+  border: 10px solid #887668;
+  -moz-box-shadow: 5px 5px 5px #888888;
+  -webkit-box-shadow: 5px 5px 5px #888888;
   box-shadow: 5px 5px 5px #888888; }
 img#headline_image {
   margin-left: auto;

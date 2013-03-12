@@ -84,12 +84,12 @@ img {
 
 	&#main_photo {
 		@include centered;
+		margin-left: -10px;
+		margin-bottom: 40px;
 		width: 630px;
-	    display: block;
-		border: 10px solid $primary-color;
-	    padding: 0px;
-		-moz-box-shadow: 10px 10px 5px #888;
-		-webkit-box-shadow: 10px 10px 5px #888;
+		border: 10px solid lighten($primary-color, 10%);
+		-moz-box-shadow: 5px 5px 5px #888;
+		-webkit-box-shadow: 5px 5px 5px #888;
 		box-shadow: 5px 5px 5px #888;
 	}
 
