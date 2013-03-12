@@ -14,7 +14,8 @@
 
 $initial-letter-font: 'Pinyon Script', cursive;
 $primary-color: #6B5D52;
-$container-background-color: white; 
+$container-background-color: white;
+$bg-image: 'wallpaper.jpg';
 
 @mixin centered {
 	margin-left: auto;
@@ -22,7 +23,7 @@ $container-background-color: white;
 }
 
 body {
-	background-image:url('wallpaper.jpg');
+	background-image:url($bg-image);
 	font-family: "Times New Roman";
 	color: $primary-color;
 	background-color: $container-background-color;
@@ -83,8 +84,9 @@ img {
 
 	&#main_photo {
 		@include centered;
+		width: 630px;
 	    display: block;
-		border: 15px solid #CCCCCC;
+		border: 10px solid $primary-color;
 	    padding: 0px;
 		-moz-box-shadow: 10px 10px 5px #888;
 		-webkit-box-shadow: 10px 10px 5px #888;
