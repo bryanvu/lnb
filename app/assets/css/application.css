@@ -47,7 +47,7 @@ table#menu {
   width: 750px;
   margin-top: 10px; }
 table#wedding_party_table {
-  width: 630px;
+  width: 650px;
   vertical-align: top; }
 
 span.wedding_party_header {
@@ -56,7 +56,9 @@ span.wedding_party_header {
 img#main_photo {
   margin-left: auto;
   margin-right: auto;
-  display: block; }
+  display: block;
+  border: 1px solid #6b5d52;
+  padding: 5px; }
 img#headline_image {
   margin-left: auto;
   margin-right: auto;

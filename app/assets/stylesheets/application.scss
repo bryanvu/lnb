@@ -68,7 +68,7 @@ table {
 	}
 
 	&#wedding_party_table {
-		width: 630px;
+		width: 650px;
 		vertical-align: top;
 	}
 }
@@ -84,6 +84,8 @@ img {
 	&#main_photo {
 		@include centered;
 	    display: block;
+		border: 1px solid $primary-color;
+	    padding: 5px;
 	}
 
 	&#headline_image {
