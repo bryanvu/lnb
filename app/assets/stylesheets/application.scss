@@ -84,7 +84,6 @@ img {
 
 	&#main_photo {
 		@include centered;
-		margin-left: -10px;
 		margin-bottom: 40px;
 		width: 630px;
 		border: 5px solid lighten($primary-color, 10%);
