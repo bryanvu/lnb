@@ -84,8 +84,11 @@ img {
 	&#main_photo {
 		@include centered;
 	    display: block;
-		border: 1px solid $primary-color;
-	    padding: 5px;
+		border: 15px solid #CCCCCC;
+	    padding: 0px;
+		-moz-box-shadow: 10px 10px 5px #888;
+		-webkit-box-shadow: 10px 10px 5px #888;
+		box-shadow: 5px 5px 5px #888;
 	}
 
 	&#headline_image {
